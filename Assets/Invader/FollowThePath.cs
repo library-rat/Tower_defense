@@ -34,14 +34,12 @@ public class FollowThePath : MonoBehaviour
             Move_up();
         }else{
             Move_down();
-            Debug.Log("waypoint index" + waypointIndex);
 
         }
-        Debug.Log( up);
         if(transform.position == waypoints[waypoints.Length -1].transform.position){
-            Debug.Log("END !!!");
             up =false;
             waypointIndex -= 1;
+
         }
 
 

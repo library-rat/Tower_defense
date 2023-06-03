@@ -31,6 +31,14 @@ public class Stats :MonoBehaviour {
         return maxfear;
     }
 
+    public void hit( float damage){
+        health -= damage;
+    }
+
+    public void scare(float damage){
+        fear -= damage;
+    }
+    
     
     
 }
