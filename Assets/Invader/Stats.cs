@@ -32,13 +32,14 @@ public class Stats :MonoBehaviour {
     }
 
     public void hit( float damage){
-        health -= damage;
+        health -= damage; 
+        Debug.Log("hitten");
     }
 
     public void scare(float damage){
         fear -= damage;
+        Debug.Log("Ahh now :" + fear);
     }
-    
     
     
 }

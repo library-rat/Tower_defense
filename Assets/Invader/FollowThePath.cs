@@ -1,9 +1,8 @@
 using UnityEngine;
-
 public class FollowThePath : MonoBehaviour
 {
     [SerializeField]
-
+    
     private bool up = true;
 
     [SerializeField]
