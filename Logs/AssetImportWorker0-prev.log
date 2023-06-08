@@ -24,7 +24,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-39645
+37505
 Successfully changed project path to: /home/lucas/Documents/Tower_defense
 /home/lucas/Documents/Tower_defense
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,11 +56,11 @@ Successfully changed project path to: /home/lucas/Documents/Tower_defense
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140289480086144] Host "[IP] 192.168.14.25 [Port] 0 [Flags] 2 [Guid] 1710710111 [EditorId] 1710710111 [Version] 1048832 [Id] LinuxEditor(16,192.168.14.25) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140312070623872] Host "[IP] 192.168.14.25 [Port] 0 [Flags] 2 [Guid] 88378516 [EditorId] 88378516 [Version] 1048832 [Id] LinuxEditor(16,192.168.14.25) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140289480086144] Host "[IP] 192.168.14.25 [Port] 0 [Flags] 2 [Guid] 1710710111 [EditorId] 1710710111 [Version] 1048832 [Id] LinuxEditor(16,192.168.14.25) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140312070623872] Host "[IP] 192.168.14.25 [Port] 0 [Flags] 2 [Guid] 88378516 [EditorId] 88378516 [Version] 1048832 [Id] LinuxEditor(16,192.168.14.25) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 206,29 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 129,81 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path /home/lucas/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -76,84 +76,84 @@ int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program
 L_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewpor
 t_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_share
 d_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -721667312
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 548705472
 Initialize mono
 Mono path[0] = '/home/lucas/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
 Mono path[1] = '/home/lucas/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/lucas/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56406
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/lucas/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/lucas/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,014727 seconds.
+Registered in 0,014497 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 149,40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 242,59 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,347 seconds
+- Completed reload, in  1,425 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1348ms)
-		BeginReloadAssembly (143ms)
+	ReloadAssembly (1425ms)
+		BeginReloadAssembly (175ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1019ms)
-			LoadAssemblies (138ms)
+		EndReloadAssembly (1100ms)
+			LoadAssemblies (172ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (252ms)
+			SetupTypeCache (155ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (628ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (695ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (149ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (351ms)
-				ProcessInitializeOnLoadMethodAttributes (109ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (243ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (345ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0,011811 seconds.
+Registered in 0,008591 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /home/lucas/Documents/Tower_defense/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/lucas/Documents/Tower_defense/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 202,34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 133,30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2,117 seconds
+- Completed reload, in  1,669 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2118ms)
-		BeginReloadAssembly (152ms)
+	ReloadAssembly (1671ms)
+		BeginReloadAssembly (142ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (1789ms)
-			LoadAssemblies (104ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1376ms)
+			LoadAssemblies (101ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (446ms)
+			SetupTypeCache (339ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (178ms)
-			SetupLoadedEditorAssemblies (923ms)
+			RebuildScriptCaches (114ms)
+			SetupLoadedEditorAssemblies (709ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (202ms)
-				BeforeProcessingInitializeOnLoad (212ms)
-				ProcessInitializeOnLoadAttributes (426ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				RefreshPlugins (133ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (364ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
@@ -163,10 +163,10 @@ Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Refreshing native plugins compatible for Editor in 0,72 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3737 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (36,8 KB). Loaded Objects now: 4197.
-Memory consumption went from 138,0 MB to 137,9 MB.
-Total: 5,432929 ms (FindLiveObjects: 0,263394 ms CreateObjectMapping: 0,206786 ms MarkObjects: 4,781070 ms  DeleteObjects: 0,179703 ms)
+Unloading 3738 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (36,9 KB). Loaded Objects now: 4199.
+Memory consumption went from 138,0 MB to 138,0 MB.
+Total: 5,627886 ms (FindLiveObjects: 0,269394 ms CreateObjectMapping: 0,205115 ms MarkObjects: 4,978970 ms  DeleteObjects: 0,172907 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -179,61 +179,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 6318,534947 seconds.
-  path: Assets/Autel/Murmures/Murmures.prefab
-  artifactKey: Guid(3b782d9d8cfdd8828952f8879feebe01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Autel/Murmures/Murmures.prefab using Guid(3b782d9d8cfdd8828952f8879feebe01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56013a9d3b2e132593d163b75a718dab') in 0,122512 seconds 
+  Time since last request: 2598,880400 seconds.
+  path: Assets/Invader/FollowThePath.cs
+  artifactKey: Guid(9b9b1a82d52189cd7aca779da389b13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invader/FollowThePath.cs using Guid(9b9b1a82d52189cd7aca779da389b13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790c175cded2951c81cd313a0aadcccc') in 0,007800 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000032 seconds.
+  Time since last request: 499,889396 seconds.
   path: Assets/Invader/Invader.prefab
   artifactKey: Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Invader/Invader.prefab using Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9308ca22acade1fe1043e89cf71ffc') in 0,013850 seconds 
+Start importing Assets/Invader/Invader.prefab using Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2252ebd9cfffd433b4ca505877da04') in 0,135739 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20,118984 seconds.
+  Time since last request: 1355,760375 seconds.
   path: Assets/Invader/Invader.prefab
   artifactKey: Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Invader/Invader.prefab using Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e7fb230d0daf4cb45a15c9be0eb057') in 0,016829 seconds 
+Start importing Assets/Invader/Invader.prefab using Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4b4a0f9de41123a1520e2e9079b7af') in 0,012369 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23,447079 seconds.
+  Time since last request: 106,907996 seconds.
   path: Assets/Invader/Invader.prefab
   artifactKey: Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Invader/Invader.prefab using Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab869acb58b52400237544d85ffef3e') in 0,013177 seconds 
+Start importing Assets/Invader/Invader.prefab using Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd4341ab445698ae4afa182a001c76e') in 0,019935 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1928,631500 seconds.
+  Time since last request: 615,596247 seconds.
   path: Assets/Invader/Invader.prefab
   artifactKey: Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Invader/Invader.prefab using Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a86195ec7c54d4285f84976d877bb8') in 0,013553 seconds 
+Start importing Assets/Invader/Invader.prefab using Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e809ad64fcebdf67c741a1c89cf55a0') in 0,013018 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17,043959 seconds.
-  path: Assets/Invader/Bars
-  artifactKey: Guid(4b081365a72990950bcda06c008ea882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Invader/Bars using Guid(4b081365a72990950bcda06c008ea882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765b1c8d2ef43c81f7e43dde015c23f1') in 0,003121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1,092964 seconds.
-  path: Assets/Invader/Bars/bar.png
-  artifactKey: Guid(589f462f1ff3be7e0a094977afcb1280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Invader/Bars/bar.png using Guid(589f462f1ff3be7e0a094977afcb1280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82474eecd8884a6acfc17523eec8c613') in 0,054212 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20,047490 seconds.
+  Time since last request: 12,188114 seconds.
   path: Assets/Invader/Invader.prefab
   artifactKey: Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Invader/Invader.prefab using Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e882450d3909d29819956b5c8bca4440') in 0,023908 seconds 
+Start importing Assets/Invader/Invader.prefab using Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b33c287cf37b96416e4adb268d91705') in 0,015273 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4,926118 seconds.
+  Time since last request: 18,442659 seconds.
   path: Assets/Invader/Invader.prefab
   artifactKey: Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Invader/Invader.prefab using Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34559bd81338023d1bed8b62c2669af') in 0,012393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12,737424 seconds.
-  path: Assets/Invader/Invader.prefab
-  artifactKey: Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Invader/Invader.prefab using Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76de59aeb960790cfec6f63c07b02b30') in 0,012779 seconds 
+Start importing Assets/Invader/Invader.prefab using Guid(5940e3a9723d9e6188b624e7f50b404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f852f5fe25ae4f22781549826b98675') in 0,011742 seconds 

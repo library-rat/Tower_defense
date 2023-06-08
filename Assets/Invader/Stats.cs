@@ -15,6 +15,8 @@ public class Stats :MonoBehaviour {
     [SerializeField]
     private float maxfear;
     
+    private GameObject bars;
+
     public float get_health(){
         return health;
     }
@@ -34,11 +36,14 @@ public class Stats :MonoBehaviour {
     public void hit( float damage){
         health -= damage; 
         Debug.Log("hitten");
+        bars.GetComponent<Bars>().UpdateHealthBar();
     }
 
     public void scare(float damage){
         fear -= damage;
         Debug.Log("Ahh now :" + fear);
+        bars.GetComponent<Bars>().UpdateFearBar();
+
     }
     
     
