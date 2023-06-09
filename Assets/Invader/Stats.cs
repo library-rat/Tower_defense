@@ -40,13 +40,13 @@ public class Stats :MonoBehaviour {
     }
 
     public void hit( float damage){
-        health -= damage; 
+        health = Mathf.Max(0, health - damage); 
         Debug.Log("hitten");
         bars.GetComponent<Bars>().UpdateHealthBar();
     }
 
     public void scare(float damage){
-        fear -= damage;
+        fear = Mathf.Max(0, fear - damage);
         Debug.Log("Ahh now :" + fear);
         bars.GetComponent<Bars>().UpdateFearBar();
 

@@ -16,8 +16,4 @@ public class Detect : MonoBehaviour{
         targets.Remove(col.gameObject);
     }
 
-    private void OnTriggerStay2D(Collider2D col){
-        col.gameObject.GetComponent<Stats>().hit(0);
-        
-    }
 }
