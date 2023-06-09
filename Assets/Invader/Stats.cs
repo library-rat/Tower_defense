@@ -15,8 +15,14 @@ public class Stats :MonoBehaviour {
     [SerializeField]
     private float maxfear;
     
-    private GameObject bars;
+    public GameObject bars;
 
+    private void Start(){
+        bars.GetComponent<Bars>().UpdateHealthBar();
+        bars.GetComponent<Bars>().UpdateFearBar();
+        Debug.Log(bars.GetComponent<Bars>().InnerFear.fillAmount);
+
+    }
     public float get_health(){
         return health;
     }
