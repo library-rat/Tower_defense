@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1284672659161691024, guid: 57d46fbb5add71ae4bc7003d60a3ee8e, type: 3}
       propertyPath: m_Name
-      value: Autel Variant
+      value: Murmures
       objectReference: {fileID: 0}
     - target: {fileID: 1284672659161691024, guid: 57d46fbb5add71ae4bc7003d60a3ee8e, type: 3}
       propertyPath: m_IsActive
@@ -61,3 +61,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57d46fbb5add71ae4bc7003d60a3ee8e, type: 3}
+--- !u!1 &3132990936361619317 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2897567845019293552, guid: 57d46fbb5add71ae4bc7003d60a3ee8e, type: 3}
+  m_PrefabInstance: {fileID: 237745415613732869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4372182496050626986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3132990936361619317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370b9c312072c5c77884f3553e27f851, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldowntime: 0.5
+  feardmg: 3
