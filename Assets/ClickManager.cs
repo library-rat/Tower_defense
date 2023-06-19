@@ -25,8 +25,10 @@ public class ClickManager : MonoBehaviour{
             }
             Debug.Log("NOT TOUCHED");
             }else{
-                hit.collider.GetComponent<Clickable>().clickon();
-                Debug.Log("TOUCHED");
+                if(hit.collider.GetComponent<Clickable>() != null){
+                    hit.collider.GetComponent<Clickable>().clickon();
+                    Debug.Log("TOUCHED");
+                }
             }
         }
     }
