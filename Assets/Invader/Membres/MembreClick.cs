@@ -1,10 +1,9 @@
 using UnityEngine;
 
-public class AutelClick : Clickable {
+public class MembreClick : Clickable {
 
     new protected void Start(){
         base.Start(); 
-        transform.GetChild(0).GetComponent<Renderer> ().enabled = false;
     }
     public override void clickon(){
         transform.GetChild(0).GetComponent<Renderer> ().enabled = true;
@@ -15,4 +14,5 @@ public class AutelClick : Clickable {
     {
         transform.GetChild(0).GetComponent<Renderer> ().enabled = false;
     }
+
 }

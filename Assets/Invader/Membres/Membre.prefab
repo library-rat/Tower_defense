@@ -12,8 +12,10 @@ GameObject:
   - component: {fileID: 7290237974533969633}
   - component: {fileID: 7290237974533969632}
   - component: {fileID: 7290237974533969647}
+  - component: {fileID: 2495105736692741309}
+  - component: {fileID: -280651798674475202}
   m_Layer: 5
-  m_Name: Bras
+  m_Name: Membre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122,6 +124,34 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2495105736692741309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7290237974533969645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab1f7f09b6a418621813ad86455e89b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteBras: {fileID: 21300000, guid: f606d14e0cccf02239a107d341ddc8e7, type: 3}
+  spriteTorse: {fileID: 21300000, guid: 9ba3a671ecb705979903a136b0caf818, type: 3}
+  spriteCrane: {fileID: 21300000, guid: 2b4dd917d8f78ad29ac51b096575dc88, type: 3}
+--- !u!114 &-280651798674475202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7290237974533969645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b46b9980271502c8252d5500e8897b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickmanager: {fileID: 0}
 --- !u!1 &7290237976579811538
 GameObject:
   m_ObjectHideFlags: 0
@@ -188,7 +218,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: B
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
