@@ -70,4 +70,24 @@ public class Membre : MonoBehaviour
         float[] temp = {range, health, fear, damage, atkspeed};
         return (temp);
     }
+
+    public string get_description(){
+        string returnval = "";
+        if (range != 0){
+            returnval += "range : +" + range + "\n";
+        }
+        if (health != 0){
+            returnval += "health : +" + health + "\n";
+        }
+        if (fear != 0){
+            returnval += "fear : +" + fear + "\n";
+        }
+        if (damage != 0){
+            returnval += "damage : +" + damage + "\n";
+        }
+        if (atkspeed != 0){
+            returnval += "atkspeed : +" + atkspeed + "\n";
+        }
+        return returnval;
+    }
 }
