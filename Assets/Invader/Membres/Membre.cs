@@ -6,7 +6,7 @@ public class Membre : MonoBehaviour
     private Renderer mem_renderer;
     private SpriteRenderer spriteRenderer;
 
-    private Image buttonImage;
+    public Image buttonImage;
     private float range;
     private float health;
     private float fear;

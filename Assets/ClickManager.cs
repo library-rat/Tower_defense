@@ -4,6 +4,8 @@ using System.Collections.Generic;
 public class ClickManager : MonoBehaviour{
     List<Clickable> listeners = new List<Clickable>();
     Clickable selected;
+    
+    
     public void AddListener(Clickable elt){
         listeners.Add(elt);
     }
@@ -14,6 +16,10 @@ public class ClickManager : MonoBehaviour{
 
     public void Set_Selected(Clickable elt){
         selected = elt;
+    }
+
+    public void collect_membre(Membre elt){
+
     }
 
     private void Update (){
@@ -30,12 +36,21 @@ public class ClickManager : MonoBehaviour{
             selected = null;
             Debug.Log("NOT TOUCHED");
         }else{
+                
+                if (hit.collider.GetComponent<MembreHoldClick>()!= null){
+                    selected = hit.collider.GetComponent<Clickable>();;
+                }else{
+                    if(hit.collider.GetComponent<MembreClick>() != null){
+                        selected.GetComponent<MembreHoldClick>().set_membre(hit.collider.GetComponent<Membre>());
+                    }
                 foreach (var elt in listeners){
                     if(elt != selected ){
                         elt.GetComponent<Clickable>().clickoff();
                     }
                 }
+                }
                 hit.collider.GetComponent<Clickable>().clickon();
+                
                 Debug.Log("TOUCHED");
             }
         }
