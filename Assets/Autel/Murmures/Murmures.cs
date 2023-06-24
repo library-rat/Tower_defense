@@ -1,7 +1,7 @@
 using UnityEngine;
 public class Murmures : MonoBehaviour{
     [SerializeField]
-    private float cooldowntime = 0.5f;
+    private float cooldowntime = 1f;
 
     [SerializeField]
     private float feardmg = 3f;

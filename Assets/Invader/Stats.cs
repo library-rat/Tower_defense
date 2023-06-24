@@ -46,6 +46,7 @@ public class Stats :MonoBehaviour {
 
     public void scare(float damage){
         fear = Mathf.Max(0, fear - damage);
+        Debug.Log(fear);
         bars.GetComponent<Bars>().UpdateFearBar();
 
     }
