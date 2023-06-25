@@ -6,13 +6,13 @@ public class MembreClick : Clickable {
         base.Start(); 
     }
     public override void clickon(){
-        transform.GetChild(0).GetComponent<Renderer> ().enabled = true;
-        base.clickmanager.Set_Selected(this);
+        GetComponent<Membre>().set_used();
+        Debug.Log("click on membre");
     }
 
     public override void clickoff()
     {
-        transform.GetChild(0).GetComponent<Renderer> ().enabled = false;
-    }
+/*         transform.GetChild(0).GetComponent<Renderer> ().enabled = false;
+ */    }
 
 }

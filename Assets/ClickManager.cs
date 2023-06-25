@@ -23,9 +23,28 @@ public class ClickManager : MonoBehaviour{
         selected = elt;
     }
 
-    public void collect_membre(Membre elt){
+    public void open_membre_menu(){
 
     }
+
+
+
+
+
+public void react_to_Membre(){
+    if(!selected.GetComponent<Membre>().get_used()){
+        selected.GetComponent<MembreHoldClick>().set_membre(hit.collider.GetComponent<Membre>());
+    }
+}
+
+public void react_to_MembreHold(){
+
+    selected = hit.collider.GetComponent<Clickable>();
+    hit.collider.GetComponent<Clickable>().clickon();
+
+}
+
+
 
     private void Update (){
         if(Input.GetMouseButtonDown(0)){
@@ -41,16 +60,7 @@ public class ClickManager : MonoBehaviour{
             selected = null;
             Debug.Log("NOT TOUCHED");
         }else{
-                
-                if (hit.collider.GetComponent<MembreHoldClick>()!= null){
-                    selected = hit.collider.GetComponent<Clickable>();;
-                    
-                }else{
-                if(hit.collider.GetComponent<MembreClick>() != null){
-                        selected.GetComponent<MembreHoldClick>().set_membre(hit.collider.GetComponent<Membre>());
-                }else{
 
-                
                 foreach (var elt in listeners){
                     if(elt != selected ){
                         elt.GetComponent<Clickable>().clickoff();
@@ -60,8 +70,7 @@ public class ClickManager : MonoBehaviour{
                 hit.collider.GetComponent<Clickable>().clickon();
                 
                 Debug.Log("TOUCHED");
-                }
-                }
+                
             }
         }
     }

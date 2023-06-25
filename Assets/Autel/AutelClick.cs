@@ -8,8 +8,8 @@ public class AutelClick : Clickable {
     }
     public override void clickon(){
         transform.GetChild(0).GetComponent<Renderer> ().enabled = true;
-        base.clickmanager.Set_Selected(this);
-    }
+/*         base.clickmanager.Set_Selected(this);
+ */    }
 
     public override void clickoff()
     {

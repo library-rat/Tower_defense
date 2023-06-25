@@ -13,8 +13,11 @@ public class Membre : MonoBehaviour
     private float damage;
     private float atkspeed;
     public Sprite spriteBras;
+    public Sprite darkSpriteBras;
     public Sprite spriteTorse;
+    public Sprite darkSpriteTorse;
     public Sprite spriteCrane;
+    public Sprite darkSpriteCrane;
     private string typemembre;
 
     private void Start(){
@@ -24,13 +27,45 @@ public class Membre : MonoBehaviour
 
     public void set_free(){
         used = true;
-        mem_renderer.material.color = Color.grey;
+        mem_renderer.material.color = Color.black;
+        switch(typemembre){
+            case "bras" :
+                buttonImage.sprite = darkSpriteBras;
+                break;
+            case "torse" :
+                buttonImage.sprite = darkSpriteTorse;
+                break;
+            case "crane" :
+                buttonImage.sprite = darkSpriteTorse;
+                break;
+            default :
+                buttonImage.sprite = darkSpriteTorse;
+                break;
+        }
     }
 
     public void set_used(){
         used = false;
         mem_renderer.material.color = Color.white;
+        switch(typemembre){
+            case "bras" :
+                buttonImage.sprite = spriteBras;
+                break;
+            case "torse" :
+                buttonImage.sprite = spriteTorse;
+                break;
+            case "crane" :
+                buttonImage.sprite = spriteTorse;
+                break;
+            default :
+                buttonImage.sprite = spriteTorse;
+                break;
+        }
 
+    }
+
+    public bool get_used(){
+        return used;
     }
 
     public void set_typemembre(string input){

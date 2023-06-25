@@ -14,7 +14,10 @@ public class MembreHoldClick : Clickable {
 
     }
     public override void clickon(){
-        
+        clickmanager.open_membre_menu();
+        if (membre != null){
+            membre.set_free();
+        }
     }
 
     public override void clickoff()
@@ -24,11 +27,10 @@ public class MembreHoldClick : Clickable {
 
     public void set_membre(Membre new_m){
         if (membre != null){
-            clickmanager.collect_membre(membre);
-        }
         membre = new_m;
         buttonImage.sprite = membre.buttonImage.sprite;
-        if (membre == null){
+        }else{
+            membre = null;
             buttonImage.sprite = allSprite;
         }
     }
