@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections.Generic;
 
 public class ClickManager : MonoBehaviour{
@@ -31,16 +32,17 @@ public class ClickManager : MonoBehaviour{
 
 
 
-public void react_to_Membre(){
-    if(!selected.GetComponent<Membre>().get_used()){
-        selected.GetComponent<MembreHoldClick>().set_membre(hit.collider.GetComponent<Membre>());
+public void react_to_Membre( Membre mem){
+    Debug.Log("Membre");
+    if((!mem.get_used()) && (selected.GetComponent<MembreHoldClick>() != null)){
+        selected.GetComponent<MembreHoldClick>().set_membre(mem);
     }
 }
 
-public void react_to_MembreHold(){
-
-    selected = hit.collider.GetComponent<Clickable>();
-    hit.collider.GetComponent<Clickable>().clickon();
+public void react_to_MembreHold( MembreHoldClick mem){
+    Debug.Log("MembreHold");
+    selected = mem.GetComponent<Clickable>();
+    mem.GetComponent<Clickable>().clickon();
 
 }
 

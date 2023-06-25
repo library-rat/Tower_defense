@@ -7,10 +7,12 @@ public class MembreHoldClick : Clickable {
 
     private Image buttonImage;
     public Sprite allSprite;
+    private Button buttref;
     new protected void Start(){
         base.Start();
         buttonImage = GetComponent<Image>();
-
+        buttref = GetComponent<Button>();
+        buttref.onClick.AddListener(() => {clickmanager.react_to_MembreHold(this);});
 
     }
     public override void clickon(){
